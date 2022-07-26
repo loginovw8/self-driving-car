@@ -11,21 +11,18 @@ class Car {
     this.friction = 0.05;
     this.angle = 0;
 
+    this.sensor = new Sensor(this);
     this.controls = new Controls();
   }
 
-  update() {
-    this.#move();
-  }
+  move() {
+    this.sensor.update();
 
-  #move() {
     if (this.controls.forward) {
       this.speed += this.acceleration;
-      // this.y -= 2;
     }
     if (this.controls.reverse) {
       this.speed -= this.acceleration;
-      // this.y += 2;
     }
 
     if (this.speed > this.maxSpeed) {
@@ -50,29 +47,24 @@ class Car {
 
       if (this.controls.left) {
         this.angle += 0.03 * flip;
-        // this.x -= 2;
       }
       if (this.controls.right) {
         this.angle -= 0.03 * flip;
-        // this.x += 2;
       }
     }
 
     this.x -= Math.sin(this.angle) * this.speed;
     this.y -= Math.cos(this.angle) * this.speed;
-
-    // this.y -= this.speed;
   }
 
   draw(ctx) {
     ctx.save();
+
     ctx.translate(this.x, this.y);
     ctx.rotate(-this.angle);
 
     ctx.beginPath();
     ctx.rect(
-      // this.x - this.width / 2,
-      // this.y - this.height / 2,
       -this.width / 2,
       -this.height / 2,
       this.width,
@@ -81,5 +73,7 @@ class Car {
     ctx.fill();
 
     ctx.restore();
+
+    this.sensor.draw(ctx);
   }
 }
