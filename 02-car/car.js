@@ -7,11 +7,9 @@ class Car {
   }
 
   draw(ctx) {
-    ctx.translate(this.x, this.y);
-    ctx.beginPath();
     ctx.rect(
-      -this.width / 2,
-      -this.height / 2,
+      this.x - this.width / 2,
+      this.y,
       this.width,
       this.height
     );
