@@ -1,33 +1,33 @@
-class Sensor {
-  constructor(car) {
-    this.car = car;
-    this.rayCount = 5;
-    this.rayLength = 100;
-    this.raySpread = Math.PI / 2;
+// class Sensor {
+//   constructor(car) {
+//     this.car = car;
+//     this.rayCount = 5;
+//     this.rayLength = 100;
+//     this.raySpread = Math.PI / 2;
 
-    this.rays = [];
+//     this.rays = [];
     this.readings = [];
-  }
+  // }
 
   update(roadBorders) {
-    this.rays = [];
+    // this.rays = [];
 
-    for (let i = 0; i < this.rayCount; i++) {
-      const rayAngle =
-        lint(
-          this.raySpread / 2,
-          -this.raySpread / 2,
-          this.rayCount == 1 ? 0.5 : i / (this.rayCount - 1)
-        ) + this.car.angle;
+    // for (let i = 0; i < this.rayCount; i++) {
+    //   const rayAngle =
+    //     lint(
+    //       this.raySpread / 2,
+    //       -this.raySpread / 2,
+    //       this.rayCount == 1 ? 0.5 : i / (this.rayCount - 1)
+    //     ) + this.car.angle;
 
-      const start = { x: this.car.x, y: this.car.y };
-      const end = {
-        x: this.car.x - Math.sin(rayAngle) * this.rayLength,
-        y: this.car.y - Math.cos(rayAngle) * this.rayLength,
-      };
+    //   const start = { x: this.car.x, y: this.car.y };
+    //   const end = {
+    //     x: this.car.x - Math.sin(rayAngle) * this.rayLength,
+    //     y: this.car.y - Math.cos(rayAngle) * this.rayLength,
+    //   };
 
-      this.rays.push([start, end]);
-    }
+    //   this.rays.push([start, end]);
+    // }
 
     // readings
 
