@@ -17,7 +17,7 @@
 //     ctx.strokeStyle = "white";
 
     for (let i = 0; i <= this.laneCount; i++) {
-      const x = lint(this.left, this.right, i / this.laneCount);
+      const x = lerp(this.left, this.right, i / this.laneCount);
 
       ctx.beginPath();
       ctx.moveTo(x, this.top);

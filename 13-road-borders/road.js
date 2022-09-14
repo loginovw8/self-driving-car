@@ -11,15 +11,15 @@
 //     this.top = -infinity;
 //     this.bottom = infinity;
 
-//     const topLeft = { x: this.left, y: this.top };
-//     const topRight = { x: this.right, y: this.top };
-//     const bottomLeft = { x: this.left, y: this.bottom };
-//     const bottomRight = { x: this.right, y: this.bottom };
+    const topLeft = { x: this.left, y: this.top };
+    const topRight = { x: this.right, y: this.top };
+    const bottomLeft = { x: this.left, y: this.bottom };
+    const bottomRight = { x: this.right, y: this.bottom };
 
-//     this.borders = [
-//       [topLeft, bottomLeft],
-//       [topRight, bottomRight],
-//     ];
+    this.borders = [
+      [topLeft, bottomLeft],
+      [topRight, bottomRight],
+    ];
 //   }
 
 //   getLaneCenter(laneIndex) {
