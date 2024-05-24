@@ -24,7 +24,5 @@ https://www.youtube.com/watch?v=2AKMSO2Gocs&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9p
 
 009-the-sensor-class
 010-casting-the-rays
-011-drawing-the-rays
-012-detecting-the-road-borders
-013-drawing-the-sensor-readings
-014-get-intersection-function
+011-detecting-the-road-borders
+012-drawing-the-sensor-readings
