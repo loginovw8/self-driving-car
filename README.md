@@ -26,3 +26,7 @@ https://www.youtube.com/watch?v=2AKMSO2Gocs&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9p
 010-casting-the-rays
 011-detecting-the-road-borders
 012-drawing-the-sensor-readings
+
+## Part 04 - Segment Intersection
+
+013-visualizing-segments
