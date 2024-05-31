@@ -26,3 +26,16 @@ https://www.youtube.com/watch?v=2AKMSO2Gocs&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9p
 010-casting-the-rays
 011-detecting-the-road-borders
 012-drawing-the-sensor-readings
+
+## Part 04 - Segment Intersection
+
+013-visualizing-segments
+014-linear-interpolation
+015-intersection-function
+016-visual-debugging
+
+## Part 05 - Collision Detection
+
+017-defining-polygon
+018-drawing-polygon
+019-polygon-intersect
