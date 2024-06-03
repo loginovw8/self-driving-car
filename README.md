@@ -29,6 +29,8 @@ https://www.youtube.com/watch?v=2AKMSO2Gocs&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9p
 
 ## Part 04 - Segment Intersection
 
+https://www.youtube.com/watch?v=fHOLQJo0FjQ&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9ptyY&index=4
+
 013-visualizing-segments
 014-linear-interpolation
 015-intersection-function
@@ -36,6 +38,13 @@ https://www.youtube.com/watch?v=2AKMSO2Gocs&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9p
 
 ## Part 05 - Collision Detection
 
+https://www.youtube.com/watch?v=M8kq2eJRIp0&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9ptyY&index=5
+
 017-defining-polygon
 018-drawing-polygon
 019-polygon-intersect
+
+## Part 06 - Traffic Simulation
+
+020-generating-traffic
+021-updating-collisions
