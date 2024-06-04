@@ -46,5 +46,14 @@ https://www.youtube.com/watch?v=M8kq2eJRIp0&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9p
 
 ## Part 06 - Traffic Simulation
 
+https://www.youtube.com/watch?v=s3MpIa63BXY&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9ptyY&index=6
+
 020-generating-traffic
 021-updating-collisions
+
+## Part 07 - Neural Networks
+
+https://www.youtube.com/watch?v=Ve9TcAkpFgY&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9ptyY&index=7
+
+022-implementation
+023-connecting-to-car
