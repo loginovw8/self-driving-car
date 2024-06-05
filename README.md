@@ -57,3 +57,10 @@ https://www.youtube.com/watch?v=Ve9TcAkpFgY&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9p
 
 022-implementation
 023-connecting-to-car
+
+## Part 08 - Visualizing Neural Networks
+
+https://www.youtube.com/watch?v=lok3RVBwSqE&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9ptyY&index=8
+
+024-drawing-sctructure
+025-styling-network
