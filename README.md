@@ -69,3 +69,7 @@ https://www.youtube.com/watch?v=lok3RVBwSqE&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9p
 
 026-fitness-function
 027-mutation
+
+## Part 10 - Fine-tuning
+
+028-draw-image
