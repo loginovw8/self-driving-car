@@ -64,3 +64,8 @@ https://www.youtube.com/watch?v=lok3RVBwSqE&list=PLB0Tybl0UNfYoJE7ZwsBQoDIG4YN9p
 
 024-drawing-sctructure
 025-styling-network
+
+## Part 09 - Optimizing Neural Networks
+
+026-fitness-function
+027-mutation
