@@ -1,4 +1,4 @@
-# Беспилотный автомобиль
+# Беспилотный автомобиль. Этап 1
 
 Данный репозиторий является конспектом курса Radu Mariescu-Istodor Self-driving Car:
 
@@ -16,6 +16,8 @@
 -   Коллизии
 -   Нейронные сети
 -   Генетические алгоритмы
+
+Этап 2. https://github.com/loginovw8/virtual-world
 
 ## parts/01-driving-mechanics
 
